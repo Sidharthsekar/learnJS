@@ -85,7 +85,29 @@ console.log(e)
     //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 
 
-
+//Strings and Template Literals
+    //can use both single or double quotes to define values
+    //can be enclosed in double quotes if value has single quotes inbetween
+let stringA;
+stringA = "sjdf";
+stringA = 'sdfd';
+stringA = "Rap'tor";
+stringA = "rapt\"or";
+console.log(stringA);
+//templateliterals
+    //  ${} is the placeholder to for js expressions and it will be executed at runtime
+    //it will ignore the single and double quotes in between
+let stringB = "Carrot";
+let num1 = 4;
+let num2 = 7;
+stringA = `Fru"it's name: ${stringB} saved ${1+5} and ${num1+num2}`;
+console.log(stringA);
+//multi line
+console.log('abc\n\
+cbd');                  //slash at end of first line needed if we have multiline data in code
+console.log('abc\ncbd');
+console.log(`abc
+cbd`);
 
 
 

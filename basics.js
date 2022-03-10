@@ -12,7 +12,7 @@
         7. bigint
   
  
-
+*/
 let a = 23;
 let b = "ram";//use quotes, else ReferenceError will be thrown
 let c = true;
@@ -32,7 +32,7 @@ console.log(typeof null);   //will print "object" in console, but this is issue 
 let e = null;
 console.log(e);         //will print "null" in console
 console.log(typeof e);  //will print "object" in console, but this is issue in JS, which is not fixed due to some legacy issues
-*/
+
 /*
     let, var, const
     let and const are introduced in modern JS 2016
@@ -42,8 +42,7 @@ console.log(typeof e);  //will print "object" in console, but this is issue in J
     
     On defining a variable as let, it will let us to do mutate
     on defining a variable as const, it cannot be altered
-
-
+*/
 let age = 34;
 age = 35; //mutation possible
 const gender = "male";
@@ -51,7 +50,7 @@ const gender = "male";
 //const country;      //it will throw SyntaxError, since const value cannot be changed, we have to assign some value at the time of declaration
 var phNumber = 5676;
 phNumber = 867867;     //var is somewhat similiar to let, but there are some difference.  
-*/
+
 
 
 //Operators
@@ -64,13 +63,16 @@ let e = 10;
 //assignment operators
 console.log(a + b);
 console.log(a - b);
-console.log(a / b);
+console.log(a / b);//division
+console.log(a % b);//reminder
 console.log(a * b);
 console.log(a ** b); //Exponential operator - power operator
 console.log(c + d + a + b);       //returns america133
 console.log(c + d + (a + b));     //returns america16
 e += 5;
 e -= 1;
+e *= 2;
+e /= 2;
 e++;
 e--;
 ++e;
@@ -91,9 +93,14 @@ console.log(e)
 let stringA;
 stringA = "sjdf";
 stringA = 'sdfd';
-stringA = "Rap'tor";
 stringA = "rapt\"or";
+    //if there is a type of quote in the string, you can use alternate type of quote without using front slash
+stringA = "Rap'tor";
+stringA = 'rapt"or';
+stringA += "append after stringA";
 console.log(stringA);
+//some escape characters
+    //      \',\",\\,\n,\r,\t,\b,\f
 //templateliterals
     //  ${} is the placeholder to for js expressions and it will be executed at runtime
     //it will ignore the single and double quotes in between

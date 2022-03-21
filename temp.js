@@ -1,9 +1,9 @@
-let a = 2.3;
-let b = 1.5;
-let c = a/b;
 
-let d = "sfdf";
-d+= "xxx";
+funName(2,3);
+function funName(a,b) {
+    console.log(a+b);
+}
 
-console.log(d);
-console.log(a/b);
+funName(2,4);
+
+console.log(4);

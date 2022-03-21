@@ -88,6 +88,7 @@ console.log(e)
 
 
 //Strings and Template Literals
+    //Strings are immutable
     //can use both single or double quotes to define values
     //can be enclosed in double quotes if value has single quotes inbetween
 let stringA;
@@ -99,6 +100,9 @@ stringA = "Rap'tor";
 stringA = 'rapt"or';
 stringA += "append after stringA";
 console.log(stringA);
+
+let stringLength = stringA.length;
+let fetchByPosition = stringA[2];   
 //some escape characters
     //      \',\",\\,\n,\r,\t,\b,\f
 //templateliterals
@@ -116,6 +120,19 @@ console.log('abc\ncbd');
 console.log(`abc
 cbd`);
 
+//Arrays
+var arr = [];
+arr = ["string",23,true];
+multiArr = [[1,"kavi"],[2,"ram"]];
+
+temp = arr[2]; //fetch array value
+temp = multiArr[1][1];
+arr[3] = false; //set array value
+
+arr.push("add at end"); //will add at end and returns the length
+arr.unshift("add at start"); //will add at start and returns the length
+arr.pop();  //will remove last element and returns the removed value
+arr.shift(); //will remove first element and returns the removed value
 
 
 

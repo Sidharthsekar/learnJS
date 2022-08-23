@@ -31,12 +31,17 @@ Scope and lexical environment:
 Let and Const
 	Let and const are hoisted
 	Temporal dead zone - 
-
+Block
+	A block is a space where a group of statements are grouped.
+	Also called as Block statement, Compound statement
+	Block level scope is the scope where the let and const declared inside a block will not be accessed outside of the block. Var can be accessed outside the block
+Shadowing
 
 
 Day 1: Started with the background of the JS, Execution Context, Execution Phases, Stacks, hoisting, variables in different stacks
 Day 2: window, global space, global and local variables
 Day 3: Scope, lexical environment, Let and Const
+Day 4: Block, Shadow, Closure
 
 Unanswered questions:
 1. When we print some variable without initializing, we are getting "Uncaught ReferenceError: aa is not defined", but when the same variable is referred as this. or window. , we are getting "undefined" value

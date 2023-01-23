@@ -1,0 +1,4 @@
+
+
+There are 8 data types - undefined, null, boolean, string, number, object, symbol, bigint
+    NaN refers to Not-a-number and this is part of number datatype

@@ -1,0 +1,13 @@
+let a = document.getElementById("str1");
+let b = a.innerText;
+let c;
+console.log(b);
+console.log(b.toUpperCase());
+console.log(b.toLowerCase());
+console.log(b.substring(2));
+console.log(b.substring(2,6));
+console.log(b.slice(2,2));
+console.log(b.split("s"));
+console.log(b.split("").join(""));
+console.log(b.star);
+console.log(b);

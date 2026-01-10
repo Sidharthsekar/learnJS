@@ -1,16 +1,14 @@
 
 aaa();
+
 function aaa(){
-
-
     //console.log(babyAge)
-//let babyAge = 1;
-let isBirthday = true;
-if (isBirthday) {
-    let babyAge = 2; 
-}
-console.log(babyAge); // Ah! This prints 1
-
+    //let babyAge = 1;
+    let isBirthday = true;
+    if (isBirthday) {
+        let babyAge = 2; 
+    }
+    console.log(babyAge); // Ah! This prints 1
 }
 /*
 Const and let
